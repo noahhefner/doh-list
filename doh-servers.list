@@ -1,0 +1,110 @@
+! Title: DoH DNS Block Filter
+! Description: Filter to block the publicly available DoH servers.
+! Homepage: https://github.com/nhefner/doh-list
+! License: https://github.com/nhefner/doh-list/blob/master/LICENSE
+! Sources:
+!   - https://github.com/stonerl/doh-list
+!   - https://github.com/MohamedElashri/doh-list
+!   - https://github.com/crypt0rr/public-doh-servers
+! Last modified: 2026-06-22 09:37:42
+#
+# Domains of DoH services:
+#
+ada.openbld.net
+adblock.dns.mullvad.net
+all.dns.mullvad.net
+antivirus.bebasid.com
+anycast.dns.nextdns.io
+base.dns.mullvad.net
+basic.rethinkdns.com
+child.joindns4.eu
+child-noads.joindns4.eu
+common.dot.dns.yandex.net
+dns10.quad9.net
+dns11.quad9.net
+dns.adguard-dns.com
+dns.alidns.com
+dns.arapurayil.com
+dns.bebasid.com
+dns.caliph.dev
+dns.cert.ee
+dns.cfiec.net
+dns.cloudflare.com
+dns.comss.one
+dns.decloudus.com
+dns.digitale-gesellschaft.ch
+dns.dnsguard.pub
+dns.dnswarden.com
+dns-doh.dnsforfamily.com
+dnsforge.de
+dns.google
+dns.jupitrdns.com
+dns.marbledfennec.net
+dns.mullvad.net
+dns.nextdns.io
+dns.oszx.co
+dns.pub
+dns.pumplex.com
+dns.quad9.net
+dns.rabbitdns.org
+dns.seia.io
+dns.surfsharkdns.com
+dns.switch.ch
+doh.18bit.cn
+doh.360.cn
+doh.applied-privacy.net
+doh.cleanbrowsing.org
+doh.dns.sb
+doh.familyshield.opendns.com
+doh.ffmuc.net
+doh.la.ahadns.net
+doh.libredns.gr
+doh.nl.ahadns.net
+doh.onedns.net
+doh.opendns.com
+doh-pure.onedns.net
+doh.qis.io
+doh.sandbox.opendns.com
+doh.tiarap.org
+doh.tiar.app
+extended.dns.mullvad.net
+family.adguard-dns.com
+family.canadianshield.cira.ca
+family.cloudflare-dns.com
+family.dns.mullvad.net
+family.dot.dns.yandex.net
+family.rabbitdns.org
+frd4wvnobp.cloudflare-gateway.com
+freedns.controld.com
+ibksturm.synology.me
+internetsehat.bebasid.com
+jp.tiarap.org
+jp.tiar.app
+juuri.hagezi.org
+kaitain.restena.lu
+kids.ns.nwps.fi
+noads.joindns4.eu
+odvr.nic.cz
+openbld.net
+ordns.he.net
+private.canadianshield.cira.ca
+protected.canadianshield.cira.ca
+protective.joindns4.eu
+public.dns.iij.jp
+public.ns.nwps.fi
+resolver.dnsprivacy.org.uk
+resolver-eu.lelux.fi
+ric.openbld.net
+root.hagezi.org
+router.comss.one
+rx.techomespace.com
+safe.dot.dns.yandex.net
+secondary.dns.seia.io
+security.cloudflare-dns.com
+security.rabbitdns.org
+sm2.doh.pub
+unfiltered.adguard-dns.com
+unfiltered.joindns4.eu
+v.recipes
+wikimedia-dns.org
+wurzn.hagezi.org
