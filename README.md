@@ -27,3 +27,9 @@ All files use a `!`-prefixed header format (compatible with AdBlock-style filter
 - `bash`
 - `curl`
 - `dig` (from `dnsutils` / `bind-utils`) – optional; IP resolution is skipped if `dig` is not available.
+
+### Credits
+
+- [stonerl/doh-list](https://github.com/stonerl/doh-list)
+- [MohamedElashri/doh-list](https://github.com/MohamedElashri/doh-list)
+- [crypt0rr/public-doh-servers](https://github.com/crypt0rr/public-doh-servers)
