@@ -16,9 +16,9 @@ It then extracts full URLs, domain names, and resolves each domain to its IPv4 a
 | File | Contents |
 |---|---|
 | [`doh-list.txt`](doh-list.txt) | Full HTTPS URLs of all discovered DoH endpoints |
-| [`doh-servers.list`](doh-servers.list) | Domain names only (no protocol/path) |
-| [`doh-ipv4.list`](doh-ipv4.list) | Resolved IPv4 addresses of the DoH domains |
-| [`doh-ipv6.list`](doh-ipv6.list) | Resolved IPv6 addresses of the DoH domains |
+| [`doh-servers.txt`](doh-servers.txt) | Domain names only (no protocol/path) |
+| [`doh-ipv4.txt`](doh-ipv4.txt) | Resolved IPv4 addresses of the DoH domains |
+| [`doh-ipv6.txt`](doh-ipv6.txt) | Resolved IPv6 addresses of the DoH domains |
 
 All files use a `!`-prefixed header format (compatible with AdBlock-style filter lists) and are sorted with duplicates removed. The script is meant to be run periodically to keep the lists current.
 

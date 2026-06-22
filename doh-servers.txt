@@ -1,15 +1,3 @@
-! Title: DoH DNS Block Filter
-! Description: Filter to block the publicly available DoH servers.
-! Homepage: https://github.com/nhefner/doh-list
-! License: https://github.com/nhefner/doh-list/blob/master/LICENSE
-! Sources:
-!   - https://github.com/stonerl/doh-list
-!   - https://github.com/MohamedElashri/doh-list
-!   - https://github.com/crypt0rr/public-doh-servers
-! Last modified: 2026-06-22 13:55:48
-#
-# Domains of DoH services:
-#
 ada.openbld.net
 adblock.dns.mullvad.net
 all.dns.mullvad.net
@@ -17,10 +5,11 @@ antivirus.bebasid.com
 anycast.dns.nextdns.io
 base.dns.mullvad.net
 basic.rethinkdns.com
-child-noads.joindns4.eu
 child.joindns4.eu
+child-noads.joindns4.eu
 common.dot.dns.yandex.net
-dns-doh.dnsforfamily.com
+dns10.quad9.net
+dns11.quad9.net
 dns.adguard-dns.com
 dns.alidns.com
 dns.arapurayil.com
@@ -34,6 +23,8 @@ dns.decloudus.com
 dns.digitale-gesellschaft.ch
 dns.dnsguard.pub
 dns.dnswarden.com
+dns-doh.dnsforfamily.com
+dnsforge.de
 dns.google
 dns.jupitrdns.com
 dns.marbledfennec.net
@@ -47,10 +38,6 @@ dns.rabbitdns.org
 dns.seia.io
 dns.surfsharkdns.com
 dns.switch.ch
-dns10.quad9.net
-dns11.quad9.net
-dnsforge.de
-doh-pure.onedns.net
 doh.18bit.cn
 doh.360.cn
 doh.applied-privacy.net
@@ -63,10 +50,11 @@ doh.libredns.gr
 doh.nl.ahadns.net
 doh.onedns.net
 doh.opendns.com
+doh-pure.onedns.net
 doh.qis.io
 doh.sandbox.opendns.com
-doh.tiar.app
 doh.tiarap.org
+doh.tiar.app
 extended.dns.mullvad.net
 family.adguard-dns.com
 family.canadianshield.cira.ca
@@ -78,8 +66,8 @@ frd4wvnobp.cloudflare-gateway.com
 freedns.controld.com
 ibksturm.synology.me
 internetsehat.bebasid.com
-jp.tiar.app
 jp.tiarap.org
+jp.tiar.app
 juuri.hagezi.org
 kaitain.restena.lu
 kids.ns.nwps.fi
@@ -92,8 +80,8 @@ protected.canadianshield.cira.ca
 protective.joindns4.eu
 public.dns.iij.jp
 public.ns.nwps.fi
-resolver-eu.lelux.fi
 resolver.dnsprivacy.org.uk
+resolver-eu.lelux.fi
 ric.openbld.net
 root.hagezi.org
 router.comss.one

@@ -82,69 +82,13 @@ if [ -z "$FULL_URLS" ]; then
 fi
 
 # Generate the doh-list.txt file with the header and full URLs
-{
-	echo "! Title: DoH DNS Block Filter"
-	echo "! Description: Filter to block the publicly available DoH servers."
-	echo "! Homepage: https://github.com/nhefner/doh-list"
-	echo "! License: https://github.com/nhefner/doh-list/blob/master/LICENSE"
-	echo "! Sources:"
-	echo "!   - https://github.com/stonerl/doh-list"
-	echo "!   - https://github.com/MohamedElashri/doh-list"
-	echo "!   - https://github.com/crypt0rr/public-doh-servers"
-	echo "! Last modified: $CURRENT_DATE"
-	echo "#"
-	echo "# Full URLs of DoH services:"
-	echo "#"
-	echo "$FULL_URLS"
-} >doh-list.txt
+echo "$FULL_URLS" > doh-list.txt
 
 # Generate the doh-servers.list file with the header and only the domains
-{
-	echo "! Title: DoH DNS Block Filter"
-	echo "! Description: Filter to block the publicly available DoH servers."
-	echo "! Homepage: https://github.com/nhefner/doh-list"
-	echo "! License: https://github.com/nhefner/doh-list/blob/master/LICENSE"
-	echo "! Sources:"
-	echo "!   - https://github.com/stonerl/doh-list"
-	echo "!   - https://github.com/MohamedElashri/doh-list"
-	echo "!   - https://github.com/crypt0rr/public-doh-servers"
-	echo "! Last modified: $CURRENT_DATE"
-	echo "#"
-	echo "# Domains of DoH services:"
-	echo "#"
-	echo "$DOMAINS"
-} >doh-servers.list
+echo "$DOMAINS" > doh-servers.txt
 
 # Generate the doh-ipv4.list file with IPv4 addresses
-{
-	echo "! Title: DoH IPv4 Addresses"
-	echo "! Description: IPv4 addresses of publicly available DoH servers."
-	echo "! Homepage: https://github.com/nhefner/doh-list"
-	echo "! License: https://github.com/nhefner/doh-list/blob/master/LICENSE"
-	echo "! Sources:"
-	echo "!   - https://github.com/stonerl/doh-list"
-	echo "!   - https://github.com/MohamedElashri/doh-list"
-	echo "!   - https://github.com/crypt0rr/public-doh-servers"
-	echo "! Last modified: $CURRENT_DATE"
-	echo "#"
-	echo "# IPv4 addresses of DoH services:"
-	echo "#"
-	echo "$IPV4_LIST"
-} >doh-ipv4.list
+echo "$IPV4_LIST" > doh-ipv4.txt
 
 # Generate the doh-ipv6.list file with IPv6 addresses
-{
-	echo "! Title: DoH IPv6 Addresses"
-	echo "! Description: IPv6 addresses of publicly available DoH servers."
-	echo "! Homepage: https://github.com/nhefner/doh-list"
-	echo "! License: https://github.com/nhefner/doh-list/blob/master/LICENSE"
-	echo "! Sources:"
-	echo "!   - https://github.com/stonerl/doh-list"
-	echo "!   - https://github.com/MohamedElashri/doh-list"
-	echo "!   - https://github.com/crypt0rr/public-doh-servers"
-	echo "! Last modified: $CURRENT_DATE"
-	echo "#"
-	echo "# IPv6 addresses of DoH services:"
-	echo "#"
-	echo "$IPV6_LIST"
-} >doh-ipv6.list
+echo "$IPV6_LIST" > doh-ipv6.txt

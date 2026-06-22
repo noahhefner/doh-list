@@ -1,17 +1,6 @@
-! Title: DoH IPv6 Addresses
-! Description: IPv6 addresses of publicly available DoH servers.
-! Homepage: https://github.com/nhefner/doh-list
-! License: https://github.com/nhefner/doh-list/blob/master/LICENSE
-! Sources:
-!   - https://github.com/stonerl/doh-list
-!   - https://github.com/MohamedElashri/doh-list
-!   - https://github.com/crypt0rr/public-doh-servers
-! Last modified: 2026-06-22 13:55:48
-#
-# IPv6 addresses of DoH services:
-#
 2001:148f:fffe::1
 2001:148f:ffff::1
+2001:19f0:5401:1d93:5400:2ff:fece:25e9
 2001:300::5
 2001:300::6
 2001:470:20::2
@@ -31,6 +20,7 @@
 2602:f992:ec:1::2
 2602:ffbb:100:4::2
 2604:a880:400:d0::923:7001
+2605:380:57:613::5
 2606:1a40::11
 2606:2040:140:131::2
 2606:2040:1800:bb::2
