@@ -25,6 +25,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add doh-list.txt doh-servers.list doh-ipv4.list doh-ipv6.list
+          git add doh-list.txt doh-servers.txt doh-ipv4.txt doh-ipv6.txt
           git diff --cached --quiet || git commit -m "Weekly update $(date +'%Y-%m-%d')"
           git push
