@@ -1,9 +1,6 @@
 ada.openbld.net
-adblock.dns.mullvad.net
-all.dns.mullvad.net
 antivirus.bebasid.com
 anycast.dns.nextdns.io
-base.dns.mullvad.net
 basic.rethinkdns.com
 child-noads.joindns4.eu
 child.joindns4.eu
@@ -22,7 +19,6 @@ dns.dnsguard.pub
 dns.google
 dns.jupitrdns.com
 dns.marbledfennec.net
-dns.mullvad.net
 dns.nextdns.io
 dns.oszx.co
 dns.pub
@@ -50,11 +46,9 @@ doh.opendns.com
 doh.sandbox.opendns.com
 doh.tiar.app
 doh.tiarap.org
-extended.dns.mullvad.net
 family.adguard-dns.com
 family.canadianshield.cira.ca
 family.cloudflare-dns.com
-family.dns.mullvad.net
 family.dot.dns.yandex.net
 frd4wvnobp.cloudflare-gateway.com
 freedns.controld.com
