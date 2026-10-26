@@ -49,6 +49,7 @@ doh.tiarap.org
 family.adguard-dns.com
 family.canadianshield.cira.ca
 family.cloudflare-dns.com
+family.dns.dremaxx.com
 family.dot.dns.yandex.net
 frd4wvnobp.cloudflare-gateway.com
 freedns.controld.com
@@ -60,6 +61,7 @@ juuri.hagezi.org
 kids.ns.nwps.fi
 noads.joindns4.eu
 odvr.nic.cz
+open.dns.dremaxx.com
 openbld.net
 ordns.he.net
 private.canadianshield.cira.ca
